@@ -1,0 +1,162 @@
+##########################
+# Author Kirill Lubynets #
+# dev.lubinets@gmail.com #
+# @mrlubinets            #
+##########################
+
+version: '3'
+
+services:
+
+    php:
+        build:
+            args:
+                user: ${DOCKER_USER}
+                uid: ${DOCKER_USER_ID}
+            context: ../0dev/docker-compose
+            dockerfile: ../0dev/docker-compose/docker-compose/php/Dockerfile
+        image: zvlife
+        container_name: ${PROJECT_NAME}-app
+        depends_on:
+            - mysql
+            # - redis
+            # - mongo
+        restart: unless-stopped
+        working_dir: /var/www/
+        stdin_open: true # docker run -i
+        tty: true        # docker run -t
+        environment:
+            PHP_IDE_CONFIG: "serverName=xdebug-docker"
+        volumes:
+            - ./:/var/www:delegated
+            - ./docker-compose/php/docker-php-ext-xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+            - ./docker-compose/logs/xdebug.log:/tmp/logs/xdebug.log
+        networks:
+            zvlife-app-network:
+                ipv4_address: ${IP_APP}
+
+#    proxy:
+#        image: jwilder/nginx-proxy:0.7.0
+#        container_name: ${PROJECT_NAME}-proxy
+##        depends_on:
+##            - nginx-rls
+#        ports:
+#            - "${APP_PORT}:${APP_PORT}"
+#            # - "443:443"
+#        volumes:
+#            - /var/run/docker.sock:/tmp/docker.sock:ro
+#            - ./docker-compose/proxy/nginx-proxy.conf:/etc/nginx/conf.d/nginx-proxy.conf:ro
+#        networks:
+#            zvlife-app-network:
+#                ipv4_address: ${IP_PROXY}
+    node:
+        image: node:16.13.0-alpine
+        container_name: ${PROJECT_NAME}-node
+        working_dir: /app
+        volumes:
+            - .:/app
+        command: npm run watch
+
+    mysql:
+        image: mysql:8.0.17
+        container_name: ${PROJECT_NAME}-mysql
+        restart: unless-stopped
+        environment:
+            MYSQL_DATABASE: ${DB_DATABASE}
+            MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+            MYSQL_PASSWORD: ${DB_PASSWORD}
+            MYSQL_USER: ${DB_USERNAME}
+            SERVICE_TAGS: dev
+            SERVICE_NAME: mysql
+        volumes:
+            - ./docker-compose/mysql:/docker-entrypoint-initdb.d
+        ports:
+            - "3306:3306"
+        networks:
+            zvlife-app-network:
+                ipv4_address: ${IP_MYSQL}
+
+    nginx:
+        image: nginx:1.17-alpine
+        container_name: ${PROJECT_NAME}-nginx
+        restart: unless-stopped
+        ports:
+            - 8060:8060
+            # - 443:443
+        volumes:
+            - ./:/var/www
+            - ./docker-compose/nginx:/etc/nginx/conf.d
+            - ./docker-compose/ssl:/etc/nginx/ssl
+        networks:
+            zvlife-app-network:
+                ipv4_address: ${IP_NGINX}
+
+    phpmyadmin:
+        image: phpmyadmin
+        container_name: ${PROJECT_NAME}-phpmyadmin
+        restart: always
+        ports:
+            - 8080:80
+        environment:
+            - PMA_ARBITRARY=1
+        networks:
+            zvlife-app-network:
+                ipv4_address: ${IP_PHPMYADMIN}
+
+    es01:
+        image: docker.elastic.co/elasticsearch/elasticsearch:7.5.2
+        container_name: ${PROJECT_NAME}-es01
+        environment:
+            - node.name=es01
+            - cluster.name=es-docker-cluster
+            - cluster.initial_master_nodes=es01
+            # - bootstrap.memory_lock=true
+            - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+        ulimits:
+            memlock:
+                soft: -1
+                hard: -1
+        volumes:
+            - data01:/usr/share/elasticsearch/data
+        ports:
+            - 9200:9200
+        networks:
+            zvlife-app-network:
+                ipv4_address: ${IP_ES}
+
+    redis:
+        image: "redis:alpine"
+        container_name: ${PROJECT_NAME}-redis
+        restart: unless-stopped
+        command: redis-server --requirepass sOmE_sEcUrE_pAsS
+        ports:
+            - "6379:6379"
+        environment:
+            - REDIS_REPLICATION_MODE=master
+        networks:
+            zvlife-app-network:
+                ipv4_address: ${IP_REDIS}
+
+    mongo:
+        image: mongo
+        container_name: ${PROJECT_NAME}-mongo
+        restart: always
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: ${MONGO_DB_USERNAME}
+            MONGO_INITDB_ROOT_PASSWORD: ${MONGO_DB_PASSWORD}
+        ports:
+            - "27017:27017"
+        networks:
+            zvlife-app-network:
+                ipv4_address: ${IP_MONGO}
+
+volumes:
+    data01:
+        driver: local
+
+networks:
+    zvlife-app-network:
+        driver: bridge
+        ipam:
+            config:
+                -   subnet: ${IP_ADDRESS_SUBNET}
