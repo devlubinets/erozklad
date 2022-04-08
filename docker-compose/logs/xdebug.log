@@ -1,0 +1,559 @@
+[18] Log opened at 2022-04-08 17:22:33.663088
+[18] [Step Debug] INFO: Checking remote connect back address.
+[18] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[18] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[18] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[18] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[18] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="18" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[18] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[18] [Step Debug] WARN: 2022-04-08 17:22:34.155469: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[18] Log closed at 2022-04-08 17:22:34.156482
+
+[24] Log opened at 2022-04-08 17:24:02.982387
+[24] [Step Debug] INFO: Checking remote connect back address.
+[24] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[24] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[24] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[24] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[24] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="24" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[24] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[24] [Step Debug] WARN: 2022-04-08 17:24:03.241773: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[24] Log closed at 2022-04-08 17:24:03.242871
+
+[29] Log opened at 2022-04-08 17:24:06.397071
+[29] [Step Debug] INFO: Checking remote connect back address.
+[29] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[29] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[29] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[29] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[29] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="29" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[29] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[29] [Step Debug] WARN: 2022-04-08 17:24:06.821604: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[29] Log closed at 2022-04-08 17:24:06.822927
+
+[34] Log opened at 2022-04-08 17:24:56.361732
+[34] [Step Debug] INFO: Checking remote connect back address.
+[34] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[34] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[34] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[34] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[34] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="34" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[34] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[34] [Step Debug] WARN: 2022-04-08 17:24:56.618449: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[34] Log closed at 2022-04-08 17:24:56.619452
+
+[39] Log opened at 2022-04-08 17:26:05.491025
+[39] [Step Debug] INFO: Checking remote connect back address.
+[39] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[39] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[39] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[39] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[39] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="39" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[39] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[39] [Step Debug] WARN: 2022-04-08 17:26:05.893070: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[39] Log closed at 2022-04-08 17:26:05.894527
+
+[44] Log opened at 2022-04-08 17:26:40.061221
+[44] [Step Debug] INFO: Checking remote connect back address.
+[44] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[44] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[44] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[44] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[44] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="44" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[44] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[44] [Step Debug] WARN: 2022-04-08 17:26:40.331532: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[44] Log closed at 2022-04-08 17:26:40.332482
+
+[49] Log opened at 2022-04-08 17:26:41.757191
+[49] [Step Debug] INFO: Checking remote connect back address.
+[49] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[49] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[49] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[49] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[49] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="49" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[49] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[49] [Step Debug] WARN: 2022-04-08 17:26:42.170676: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[49] Log closed at 2022-04-08 17:26:42.172022
+
+[54] Log opened at 2022-04-08 17:27:37.157228
+[54] [Step Debug] INFO: Checking remote connect back address.
+[54] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[54] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[54] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[54] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[54] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="54" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[54] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[54] [Step Debug] WARN: 2022-04-08 17:27:37.331819: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[54] Log closed at 2022-04-08 17:27:37.332702
+
+[58] Log opened at 2022-04-08 17:27:37.357192
+[58] [Step Debug] INFO: Checking remote connect back address.
+[58] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[58] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[58] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[58] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[58] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="58" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[58] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[58] [Step Debug] WARN: 2022-04-08 17:27:37.521319: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[58] Log closed at 2022-04-08 17:27:37.522328
+
+[62] Log opened at 2022-04-08 17:27:37.542371
+[62] [Step Debug] INFO: Checking remote connect back address.
+[62] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[62] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[62] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[62] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[62] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="62" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[62] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[62] [Step Debug] WARN: 2022-04-08 17:27:37.713561: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[62] Log closed at 2022-04-08 17:27:37.714480
+
+[69] Log opened at 2022-04-08 17:30:08.493214
+[69] [Step Debug] INFO: Checking remote connect back address.
+[69] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[69] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[69] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[69] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[69] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="69" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[69] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[69] [Step Debug] WARN: 2022-04-08 17:30:08.787466: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[69] Log closed at 2022-04-08 17:30:08.788483
+
+[74] Log opened at 2022-04-08 17:30:22.191948
+[74] [Step Debug] INFO: Checking remote connect back address.
+[74] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[74] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[74] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[74] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[74] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="74" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[74] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[74] [Step Debug] WARN: 2022-04-08 17:30:22.531525: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[74] Log closed at 2022-04-08 17:30:22.532695
+
+[79] Log opened at 2022-04-08 17:30:29.182710
+[79] [Step Debug] INFO: Checking remote connect back address.
+[79] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[79] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[79] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[79] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[79] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="79" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[79] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[79] [Step Debug] WARN: 2022-04-08 17:30:29.392615: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[79] Log closed at 2022-04-08 17:30:29.393682
+
+[84] Log opened at 2022-04-08 17:30:32.152425
+[84] [Step Debug] INFO: Checking remote connect back address.
+[84] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[84] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[84] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[84] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[84] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="84" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[84] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[84] [Step Debug] WARN: 2022-04-08 17:30:32.430429: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[84] Log closed at 2022-04-08 17:30:32.431404
+
+[90] Log opened at 2022-04-08 17:30:56.255678
+[90] [Step Debug] INFO: Checking remote connect back address.
+[90] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[90] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[90] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[90] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[90] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="90" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[90] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[90] [Step Debug] WARN: 2022-04-08 17:30:56.555708: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[90] Log closed at 2022-04-08 17:30:56.556663
+
+[95] Log opened at 2022-04-08 17:32:51.816944
+[95] [Step Debug] INFO: Checking remote connect back address.
+[95] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[95] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[95] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[95] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[95] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="95" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[95] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[95] [Step Debug] WARN: 2022-04-08 17:32:52.176191: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[95] Log closed at 2022-04-08 17:32:52.177218
+
+[100] Log opened at 2022-04-08 17:34:46.506276
+[100] [Step Debug] INFO: Checking remote connect back address.
+[100] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[100] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[100] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[100] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[100] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="100" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[100] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[100] [Step Debug] WARN: 2022-04-08 17:34:46.731091: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[100] Log closed at 2022-04-08 17:34:46.732385
+
+[105] Log opened at 2022-04-08 17:34:50.123596
+[105] [Step Debug] INFO: Checking remote connect back address.
+[105] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[105] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[105] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[105] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[105] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="105" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[105] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[105] [Step Debug] WARN: 2022-04-08 17:34:50.376950: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[105] Log closed at 2022-04-08 17:34:50.378375
+
+[111] Log opened at 2022-04-08 17:35:47.929705
+[111] [Step Debug] INFO: Checking remote connect back address.
+[111] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[111] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[111] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[111] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[111] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="111" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[111] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[111] [Step Debug] WARN: 2022-04-08 17:35:48.160869: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[111] Log closed at 2022-04-08 17:35:48.162210
+
+[116] Log opened at 2022-04-08 17:36:10.458423
+[116] [Step Debug] INFO: Checking remote connect back address.
+[116] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[116] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[116] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[116] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[116] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="116" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[116] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[116] [Step Debug] WARN: 2022-04-08 17:36:10.940991: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[116] Log closed at 2022-04-08 17:36:10.942113
+
+[121] Log opened at 2022-04-08 17:36:41.675197
+[121] [Step Debug] INFO: Checking remote connect back address.
+[121] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[121] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[121] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[121] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[121] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="121" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[121] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[121] [Step Debug] WARN: 2022-04-08 17:36:41.949836: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[121] Log closed at 2022-04-08 17:36:41.950825
+
+[126] Log opened at 2022-04-08 17:37:11.231122
+[126] [Step Debug] INFO: Checking remote connect back address.
+[126] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[126] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[126] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[126] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[126] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="126" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[126] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[126] [Step Debug] WARN: 2022-04-08 17:37:11.773894: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[126] Log closed at 2022-04-08 17:37:11.774886
+
+[131] Log opened at 2022-04-08 17:38:08.266338
+[131] [Step Debug] INFO: Checking remote connect back address.
+[131] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[131] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[131] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[131] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[131] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="131" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[131] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[131] [Step Debug] WARN: 2022-04-08 17:38:08.567473: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[131] Log closed at 2022-04-08 17:38:08.568470
+
+[136] Log opened at 2022-04-08 17:38:10.058777
+[136] [Step Debug] INFO: Checking remote connect back address.
+[136] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[136] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[136] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[136] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[136] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="136" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[136] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[136] [Step Debug] WARN: 2022-04-08 17:38:10.571036: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[136] Log closed at 2022-04-08 17:38:10.572155
+
+[141] Log opened at 2022-04-08 17:42:02.665077
+[141] [Step Debug] INFO: Checking remote connect back address.
+[141] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[141] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[141] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[141] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[141] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="141" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[141] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[141] [Step Debug] WARN: 2022-04-08 17:42:02.975991: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[141] Log closed at 2022-04-08 17:42:02.976909
+
+[146] Log opened at 2022-04-08 17:42:05.682288
+[146] [Step Debug] INFO: Checking remote connect back address.
+[146] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[146] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[146] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[146] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[146] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="146" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[146] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[146] [Step Debug] WARN: 2022-04-08 17:42:06.234156: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[146] Log closed at 2022-04-08 17:42:06.235074
+
+[151] Log opened at 2022-04-08 17:43:06.989546
+[151] [Step Debug] INFO: Checking remote connect back address.
+[151] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[151] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[151] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[151] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[151] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="151" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[151] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[151] [Step Debug] WARN: 2022-04-08 17:43:07.346731: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[151] Log closed at 2022-04-08 17:43:07.347770
+
+[157] Log opened at 2022-04-08 18:13:12.692058
+[157] [Step Debug] INFO: Checking remote connect back address.
+[157] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[157] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[157] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[157] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[157] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="157" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[157] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[157] [Step Debug] WARN: 2022-04-08 18:13:13.366638: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[157] Log closed at 2022-04-08 18:13:13.367580
+
+[162] Log opened at 2022-04-08 18:13:22.245086
+[162] [Step Debug] INFO: Checking remote connect back address.
+[162] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[162] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[162] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[162] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[162] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="162" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[162] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[162] [Step Debug] WARN: 2022-04-08 18:13:22.567553: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[162] Log closed at 2022-04-08 18:13:22.568945
+
+[167] Log opened at 2022-04-08 18:16:01.657194
+[167] [Step Debug] INFO: Checking remote connect back address.
+[167] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[167] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[167] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[167] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[167] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="167" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[167] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[167] [Step Debug] WARN: 2022-04-08 18:16:01.875426: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[167] Log closed at 2022-04-08 18:16:01.876651
+
+[172] Log opened at 2022-04-08 18:16:43.345658
+[172] [Step Debug] INFO: Checking remote connect back address.
+[172] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[172] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[172] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[172] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[172] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="172" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[172] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[172] [Step Debug] WARN: 2022-04-08 18:16:43.636634: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[172] Log closed at 2022-04-08 18:16:43.637949
+
+[177] Log opened at 2022-04-08 18:17:18.231033
+[177] [Step Debug] INFO: Checking remote connect back address.
+[177] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[177] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[177] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[177] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[177] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="177" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[177] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[177] [Step Debug] WARN: 2022-04-08 18:17:18.457245: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[177] Log closed at 2022-04-08 18:17:18.458241
+
+[184] Log opened at 2022-04-08 18:17:24.939667
+[184] [Step Debug] INFO: Checking remote connect back address.
+[184] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[184] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[184] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[184] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[184] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="184" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[184] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[184] [Step Debug] WARN: 2022-04-08 18:17:25.148817: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[184] Log closed at 2022-04-08 18:17:25.150075
+
+[189] Log opened at 2022-04-08 18:19:48.590325
+[189] [Step Debug] INFO: Checking remote connect back address.
+[189] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[189] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[189] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[189] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[189] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="189" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[189] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[189] [Step Debug] WARN: 2022-04-08 18:19:48.819907: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[189] Log closed at 2022-04-08 18:19:48.820846
+
+[194] Log opened at 2022-04-08 18:19:52.332099
+[194] [Step Debug] INFO: Checking remote connect back address.
+[194] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[194] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[194] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[194] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[194] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="194" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[194] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[194] [Step Debug] WARN: 2022-04-08 18:19:52.543073: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[194] Log closed at 2022-04-08 18:19:52.544031
+
+[200] Log opened at 2022-04-08 18:20:02.044614
+[200] [Step Debug] INFO: Checking remote connect back address.
+[200] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[200] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[200] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[200] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[200] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="200" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[200] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[200] [Step Debug] WARN: 2022-04-08 18:20:02.430135: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[200] Log closed at 2022-04-08 18:20:02.431498
+
+[205] Log opened at 2022-04-08 18:22:28.521667
+[205] [Step Debug] INFO: Checking remote connect back address.
+[205] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[205] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[205] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[205] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[205] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="205" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[205] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[205] [Step Debug] WARN: 2022-04-08 18:22:28.740434: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[205] Log closed at 2022-04-08 18:22:28.741826
+
+[210] Log opened at 2022-04-08 18:26:41.702498
+[210] [Step Debug] INFO: Checking remote connect back address.
+[210] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[210] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[210] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[210] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[210] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="210" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[210] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[210] [Step Debug] WARN: 2022-04-08 18:26:42.510974: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[210] Log closed at 2022-04-08 18:26:42.512086
+
+[215] Log opened at 2022-04-08 18:26:50.927823
+[215] [Step Debug] INFO: Checking remote connect back address.
+[215] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[215] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[215] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[215] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[215] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="215" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[215] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[215] [Step Debug] WARN: 2022-04-08 18:26:51.237852: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[215] Log closed at 2022-04-08 18:26:51.238851
+
+[221] Log opened at 2022-04-08 18:32:58.526748
+[221] [Step Debug] INFO: Checking remote connect back address.
+[221] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[221] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[221] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[221] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[221] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="221" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[221] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[221] [Step Debug] WARN: 2022-04-08 18:32:59.336978: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[221] Log closed at 2022-04-08 18:32:59.338239
+
+[226] Log opened at 2022-04-08 18:33:05.430412
+[226] [Step Debug] INFO: Checking remote connect back address.
+[226] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[226] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[226] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[226] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[226] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="226" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[226] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[226] [Step Debug] WARN: 2022-04-08 18:33:05.741915: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[226] Log closed at 2022-04-08 18:33:05.743190
+
+[231] Log opened at 2022-04-08 18:34:28.095116
+[231] [Step Debug] INFO: Checking remote connect back address.
+[231] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[231] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[231] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[231] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[231] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="231" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[231] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[231] [Step Debug] WARN: 2022-04-08 18:34:28.954939: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[231] Log closed at 2022-04-08 18:34:28.955887
+
+[236] Log opened at 2022-04-08 18:34:30.624194
+[236] [Step Debug] INFO: Checking remote connect back address.
+[236] [Step Debug] INFO: Checking header 'HTTP_X_FORWARDED_FOR'.
+[236] [Step Debug] INFO: Checking header 'REMOTE_ADDR'.
+[236] [Step Debug] WARN: Could not discover client host through HTTP headers, connecting to configured address/port: localhost:9000. :-|
+[236] [Step Debug] INFO: Connected to debugging client: localhost:9000 (fallback through xdebug.client_host/xdebug.client_port). :-)
+[236] [Step Debug] -> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/artisan" language="PHP" xdebug:language_version="8.0.17" protocol_version="1.0" appid="236" idekey="PHPSTORM"><engine version="3.1.4"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[https://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2022 by Derick Rethans]]></copyright></init>
+
+[236] [Step Debug] -> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="https://xdebug.org/dbgp/xdebug" status="stopping" reason="ok"></response>
+
+[236] [Step Debug] WARN: 2022-04-08 18:34:30.994831: There was a problem sending 179 bytes on socket 3: Broken pipe.
+[236] Log closed at 2022-04-08 18:34:30.995771
+
