@@ -29,7 +29,7 @@ class CreateTimetablesTable extends Migration
                 'saturday',
                 'sunday',
             ]);
-            $table->timeTz('start_time');
+            $table->dateTimeTz('start_time');
             $table->enum('status', [
                 'lesson has begun',
                 'lesson canceled'

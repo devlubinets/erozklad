@@ -3,8 +3,8 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-
-class CreateCountriesTable extends Migration
+//TODO Countries don't work
+class CreateCountryTable extends Migration
 {
     /**
      * Run the migrations.
