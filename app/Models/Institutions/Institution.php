@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\Institutions;
 
+use App\Traits\Institutions\InstitutionRelationshipsTrait;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -23,7 +24,8 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder|institution whereUpdatedAt($value)
  * @mixin \Eloquent
  */
-class institution extends Model
+class Institution extends Model
 {
-    use HasFactory;
+    use HasFactory,
+        InstitutionRelationshipsTrait;
 }

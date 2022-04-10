@@ -17,6 +17,10 @@ class CreateinstitutionsTable extends Migration
             //columns
             $table->id();
             $table->string('name', 85);
+            $table->enum('type', [
+                'gymnasium',
+                'school'
+            ]);
             $table->unsignedBigInteger('city_id');
             $table->timestamps();
 

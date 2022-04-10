@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\Earth;
 
+use App\Traits\Earth\CiryRelationshipsTrait;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -26,5 +27,6 @@ use Illuminate\Database\Eloquent\Model;
  */
 class City extends Model
 {
-    use HasFactory;
+    use HasFactory,
+        CiryRelationshipsTrait;
 }
