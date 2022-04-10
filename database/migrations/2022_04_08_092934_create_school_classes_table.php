@@ -17,7 +17,14 @@ class CreateSchoolClassesTable extends Migration
             //columns
             $table->id();
             $table->string('name', 10);
+            $table->unsignedBigInteger('institution_id');
             $table->timestamps();
+
+            //relationships
+            $table->foreign('institution_id')->references('id')->on('institutions')
+                ->cascadeOnUpdate()
+                ->cascadeOnDelete();
+
         });
     }
 

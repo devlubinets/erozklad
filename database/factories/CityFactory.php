@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Earth\City;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class CityFactory extends Factory
@@ -14,7 +15,7 @@ class CityFactory extends Factory
     public function definition()
     {
         return [
-            //
+
         ];
     }
 }
