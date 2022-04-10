@@ -18,7 +18,7 @@ class CreateTimetablesTable extends Migration
             $table->id();
             $table->unsignedBigInteger('institution_id');
             $table->unsignedBigInteger('school_class_id');
-            $table->unsignedBigInteger('subject_id');
+            $table->unsignedBigInteger('school_subject_id');
             $table->unsignedBigInteger('rule_education_process_id');
             $table->enum('day',[
                 'monday',
@@ -32,8 +32,9 @@ class CreateTimetablesTable extends Migration
             $table->dateTimeTz('start_time');
             $table->enum('status', [
                 'lesson has begun',
-                'lesson canceled'
-            ]);
+                'lesson canceled',
+                'lesson pending'
+            ])->default('lesson pending');
             $table->timestamps();
 
             //relationships
@@ -45,8 +46,8 @@ class CreateTimetablesTable extends Migration
                 ->on('school_classes')
                 ->cascadeOnUpdate()
                 ->cascadeOnDelete();
-            $table->foreign('subject_id')->references('id')
-                ->on('subjects')
+            $table->foreign('school_subject_id')->references('id')
+                ->on('school_subjects')
                 ->cascadeOnUpdate()
                 ->cascadeOnDelete();
             $table->foreign('rule_education_process_id')->references('id')

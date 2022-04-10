@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\School;
 
+use App\Traits\School\LearnerRelationshipsTrait;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -28,5 +29,6 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Learner extends Model
 {
-    use HasFactory;
+    use HasFactory,
+        LearnerRelationshipsTrait;
 }
