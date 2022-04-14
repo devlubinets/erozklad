@@ -1,6 +1,6 @@
-MAINTAINER dev.lubinets@gmail.com
-
 FROM php:8.0-fpm
+
+MAINTAINER dev.lubinets@gmail.com
 
 # Arguments defined in docker-compose.yml
 ARG user

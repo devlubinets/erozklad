@@ -3,6 +3,9 @@
 ## dev.lubinets@gmail.com
 ## @mrlubinets
 
+## Если нужно созать объект вложенный в папку то нужно использовать слеш / ("Test1/Test")
+
+
 # Usage:
 # ------
 # $ make apidoc           - generate API documentation
@@ -23,6 +26,16 @@ args = `arg="$(filter-out $@,$(MAKECMDGOALS))" && echo $${arg:-${1}}`
 #Laravel prefix
 a:
 	php artisan
+
+#Show Laravel version
+v:
+	php artisan --version
+#############
+#####AUTH####
+#############
+cauth:
+	php artisan make:auth
+
 
 #############
 ####QUEUE####
@@ -121,7 +134,7 @@ mreset:
 mrefresh:
 	php artisan migrate:refresh
 # Удаление всех таблиц с последующей миграцией
-mfresh:
+mf:
 	php artisan migrate:fresh
 # Get status migrate ORM Eloquent model
 mstatus:
@@ -168,8 +181,8 @@ t:
 
 # Extensions
 # Bensampo ENUM
-enum:
-	php artisan make:enum $(args)
+ce:
+	php artisan make:enum $(args)Enum
 
 # ORCHID admin panel
 oadmin:

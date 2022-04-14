@@ -2,6 +2,7 @@
 
 namespace App\Models\Timetable;
 
+use App\Traits\Timetable\TimetableRelationshipsTrait;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -36,5 +37,6 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Timetable extends Model
 {
-    use HasFactory;
+    use HasFactory,
+        TimetableRelationshipsTrait;
 }

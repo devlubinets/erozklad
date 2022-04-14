@@ -20,15 +20,7 @@ class CreateTimetablesTable extends Migration
             $table->unsignedBigInteger('school_class_id');
             $table->unsignedBigInteger('school_subject_id');
             $table->unsignedBigInteger('rule_education_process_id');
-            $table->enum('day',[
-                'monday',
-                'tuesday',
-                'wednesday',
-                'thursday',
-                'friday',
-                'saturday',
-                'sunday',
-            ]);
+            $table->string('link')->nullable();
             $table->dateTimeTz('start_time');
             $table->enum('status', [
                 'lesson has begun',

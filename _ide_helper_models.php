@@ -20,14 +20,14 @@ namespace App\Models{
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @method static \Database\Factories\CityFactory factory(...$parameters)
- * @method static \Illuminate\Database\Eloquent\Builder|City newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|City newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|City query()
- * @method static \Illuminate\Database\Eloquent\Builder|City whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|City whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|City whereName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|City whereRegionId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|City whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\City newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\City newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\City query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\City whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\City whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\City whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\City whereRegionId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\City whereUpdatedAt($value)
  */
 	class City extends \Eloquent {}
 }
@@ -41,13 +41,13 @@ namespace App\Models{
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @method static \Database\Factories\CountryFactory factory(...$parameters)
- * @method static \Illuminate\Database\Eloquent\Builder|Country newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Country newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Country query()
- * @method static \Illuminate\Database\Eloquent\Builder|Country whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Country whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Country whereName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Country whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\Country newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\Country newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\Country query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\Country whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\Country whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\Country whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\Country whereUpdatedAt($value)
  */
 	class Country extends \Eloquent {}
 }
@@ -63,15 +63,15 @@ namespace App\Models{
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @method static \Database\Factories\LearnerFactory factory(...$parameters)
- * @method static \Illuminate\Database\Eloquent\Builder|Learner newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Learner newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Learner query()
- * @method static \Illuminate\Database\Eloquent\Builder|Learner whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Learner whereFirstName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Learner whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Learner whereLastName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Learner whereMiddleName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Learner whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Learner newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Learner newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Learner query()
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Learner whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Learner whereFirstName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Learner whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Learner whereLastName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Learner whereMiddleName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Learner whereUpdatedAt($value)
  */
 	class Learner extends \Eloquent {}
 }
@@ -86,14 +86,14 @@ namespace App\Models{
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @method static \Database\Factories\RegionFactory factory(...$parameters)
- * @method static \Illuminate\Database\Eloquent\Builder|Region newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Region newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Region query()
- * @method static \Illuminate\Database\Eloquent\Builder|Region whereCountryId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Region whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Region whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Region whereName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Region whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\Region newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\Region newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\Region query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\Region whereCountryId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\Region whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\Region whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\Region whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Earth\Region whereUpdatedAt($value)
  */
 	class Region extends \Eloquent {}
 }
@@ -107,13 +107,13 @@ namespace App\Models{
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @method static \Database\Factories\RuleEducationProcessFactory factory(...$parameters)
- * @method static \Illuminate\Database\Eloquent\Builder|RuleEducationProcess newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|RuleEducationProcess newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|RuleEducationProcess query()
- * @method static \Illuminate\Database\Eloquent\Builder|RuleEducationProcess whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|RuleEducationProcess whereEvenOdd($value)
- * @method static \Illuminate\Database\Eloquent\Builder|RuleEducationProcess whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|RuleEducationProcess whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Rule\RuleEducationProcess newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Rule\RuleEducationProcess newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Rule\RuleEducationProcess query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Rule\RuleEducationProcess whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Rule\RuleEducationProcess whereEvenOdd($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Rule\RuleEducationProcess whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Rule\RuleEducationProcess whereUpdatedAt($value)
  */
 	class RuleEducationProcess extends \Eloquent {}
 }
@@ -127,13 +127,13 @@ namespace App\Models{
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @method static \Database\Factories\SchoolClassFactory factory(...$parameters)
- * @method static \Illuminate\Database\Eloquent\Builder|SchoolClass newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|SchoolClass newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|SchoolClass query()
- * @method static \Illuminate\Database\Eloquent\Builder|SchoolClass whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|SchoolClass whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|SchoolClass whereName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|SchoolClass whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\SchoolClass newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\SchoolClass newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\SchoolClass query()
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\SchoolClass whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\SchoolClass whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\SchoolClass whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\SchoolClass whereUpdatedAt($value)
  */
 	class SchoolClass extends \Eloquent {}
 }
@@ -147,13 +147,13 @@ namespace App\Models{
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @method static \Database\Factories\SubjectFactory factory(...$parameters)
- * @method static \Illuminate\Database\Eloquent\Builder|Subject newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Subject newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Subject query()
- * @method static \Illuminate\Database\Eloquent\Builder|Subject whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Subject whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Subject whereName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Subject whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Subject newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Subject newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Subject query()
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Subject whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Subject whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Subject whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Subject whereUpdatedAt($value)
  */
 	class Subject extends \Eloquent {}
 }
@@ -169,15 +169,15 @@ namespace App\Models{
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @method static \Database\Factories\TeacherFactory factory(...$parameters)
- * @method static \Illuminate\Database\Eloquent\Builder|Teacher newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Teacher newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Teacher query()
- * @method static \Illuminate\Database\Eloquent\Builder|Teacher whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Teacher whereFirstName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Teacher whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Teacher whereLastName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Teacher whereMiddleName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Teacher whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Teacher newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Teacher newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Teacher query()
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Teacher whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Teacher whereFirstName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Teacher whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Teacher whereLastName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Teacher whereMiddleName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|App\Traits\School\Teacher whereUpdatedAt($value)
  */
 	class Teacher extends \Eloquent {}
 }
@@ -197,19 +197,19 @@ namespace App\Models{
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @method static \Database\Factories\TimetableFactory factory(...$parameters)
- * @method static \Illuminate\Database\Eloquent\Builder|Timetable newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Timetable newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Timetable query()
- * @method static \Illuminate\Database\Eloquent\Builder|Timetable whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Timetable whereDay($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Timetable whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Timetable whereInstitutionId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Timetable whereRuleEducationProcessId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Timetable whereSchoolClassId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Timetable whereStartTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Timetable whereStatus($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Timetable whereSubjectId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Timetable whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Timetable\Timetable newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Timetable\Timetable newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Timetable\Timetable query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Timetable\Timetable whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Timetable\Timetable whereDay($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Timetable\Timetable whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Timetable\Timetable whereInstitutionId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Timetable\Timetable whereRuleEducationProcessId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Timetable\Timetable whereSchoolClassId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Timetable\Timetable whereStartTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Timetable\Timetable whereStatus($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Timetable\Timetable whereSubjectId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Timetable\Timetable whereUpdatedAt($value)
  */
 	class Timetable extends \Eloquent {}
 }
@@ -270,14 +270,14 @@ namespace App\Models{
  * @property int $city_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- * @method static \Illuminate\Database\Eloquent\Builder|institution newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|institution newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|institution query()
- * @method static \Illuminate\Database\Eloquent\Builder|institution whereCityId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|institution whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|institution whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|institution whereName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|institution whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Institutions\institution newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Institutions\institution newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Institutions\institution query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Institutions\institution whereCityId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Institutions\institution whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Institutions\institution whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Institutions\institution whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Institutions\institution whereUpdatedAt($value)
  */
 	class institution extends \Eloquent {}
 }

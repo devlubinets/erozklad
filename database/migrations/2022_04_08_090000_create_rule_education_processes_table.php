@@ -18,9 +18,9 @@ class CreateRuleEducationProcessesTable extends Migration
             //columns
             $table->id();
             $table->enum('even_odd', [
-                'парні',
-                'непарні',
-                'ні'
+                'even',
+                'odd',
+                'no'
             ]);
             $table->timestamps();
         });

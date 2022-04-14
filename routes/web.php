@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TimetableController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+
+Route::get('/school/timetable', [TimetableController::class, 'show'])
+    ->name('school.timetable');
+
+//Route::get('/school/timetable', [TimetableController::class, 'index'])
+//    ->name('school.timetable');
